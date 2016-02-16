@@ -1,0 +1,13 @@
+{
+    "id": 3, 
+    "name": "海鮮市場", 
+    "image_url": "img/stores/food03.jpg",
+    "name": "海鮮市場", 
+    "rating": "4",
+    "phone": "000-1111-5555",
+    "url": "http://cookpad.com/category/2",
+    "location": {
+        "neighborhoods": ["新宿駅", "西新宿"]
+    },
+    "snippet_text": "東京湾のお魚が食べられる"
+}

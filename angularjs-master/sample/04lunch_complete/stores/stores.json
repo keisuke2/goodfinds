@@ -1,0 +1,37 @@
+[
+    {
+        "id": 0,
+        "image_url": "img/stores/food01.jpg", 
+        "name": "佐治のカレーハウス", 
+        "rating": "1",
+        "snippet_text": "金曜夜はナンが食べ放題です"
+    }, 
+    {
+        "id": 1, 
+        "image_url": "img/stores/food02.jpg", 
+        "name": "フーゴのイタリアン", 
+        "rating": "5",
+        "snippet_text": "パスタがおいしい"
+    }, 
+    {
+        "id": 2, 
+        "image_url": "img/stores/food03.jpg", 
+        "name": "海鮮市場",
+        "rating": "4",
+        "snippet_text": "東京湾のお魚が食べられる"
+    }, 
+    {
+        "id": 3, 
+        "image_url": "img/stores/food04.jpg", 
+        "name": "テリーの洋食店", 
+        "rating": "5",
+        "snippet_text": "シェフ特性のビーフシチューがお勧め"
+    }, 
+    {
+        "id": 4, 
+        "image_url": "img/stores/food05.jpg", 
+        "name": "ヒゲのスイーツショップ", 
+        "rating": "2",
+        "snippet_text": "バニラアイスを載っけたパフェがおいしい"
+    }
+]

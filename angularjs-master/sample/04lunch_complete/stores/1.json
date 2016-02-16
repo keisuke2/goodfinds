@@ -1,0 +1,12 @@
+{
+    "id": 1, 
+    "name": "フーゴのイタリアン", 
+    "image_url": "img/stores/food02.jpg",
+    "rating": "5",
+    "phone": "000-1111-3333",
+    "url": "http://cookpad.com/category/27",
+    "location": {
+        "neighborhoods": ["板橋駅", "新板橋駅"]
+    },
+    "snippet_text": "イタリア人シェフが作るパスタがおいしい。"
+}

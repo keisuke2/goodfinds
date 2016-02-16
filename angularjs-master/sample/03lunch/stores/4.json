@@ -1,0 +1,12 @@
+{
+    "id": 0, 
+    "name": "ヒゲのスイーツショップ", 
+    "image_url": "img/stores/food05.jpg",
+    "rating": "2",
+    "phone": "000-1111-9999",
+    "url": "http://cookpad.com/search/%E3%83%91%E3%83%95%E3%82%A7",
+    "location": {
+        "neighborhoods": ["青山一丁目", "外苑前", "信濃町駅"]
+    },
+    "snippet_text": "ヒゲが特徴のパティシエが経営"
+}

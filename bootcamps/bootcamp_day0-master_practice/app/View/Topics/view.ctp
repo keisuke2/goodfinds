@@ -1,0 +1,19 @@
+<article>
+	<div>
+		<section>
+			記事詳細/詳細は割愛
+		</section>
+	</div>
+</article>
+<section>
+	<div>
+		<form>
+			コメント用フォーム/詳細は割愛
+		</form>
+	</div>
+	<div>
+		コメント表示/詳細は割愛
+	</div>
+
+</section>
+</article>

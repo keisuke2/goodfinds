@@ -1,0 +1,12 @@
+{
+    "id": 0, 
+    "name": "佐治のカレーハウス", 
+    "image_url": "img/stores/food01.jpg",
+    "rating": "1",
+    "phone": "000-1111-2222",
+    "url": "http://cookpad.com/category/26",
+    "location": {
+        "neighborhoods": ["東京駅", "新橋駅", "有楽町駅"]
+    },
+    "snippet_text": "甘過ぎるカレーが特徴。金曜夜はナンが食べ放題です"
+}

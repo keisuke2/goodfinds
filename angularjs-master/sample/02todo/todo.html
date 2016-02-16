@@ -1,0 +1,17 @@
+<!doctype html>
+<html ng-app="todoApp">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <script src="todo.js"></script>
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+  </head>
+  <body>
+    <div ng-controller="TodoListController">
+    <ul>
+      <li>{{todos[0].text}}</li>
+      <li>{{todos[1].text}}</li>
+    </ul>
+    </div>
+  </body>
+</html>

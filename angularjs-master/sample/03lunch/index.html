@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja" ng-app="storesControllers">
+<head>
+    <meta charset="UTF-8">
+    <title>レストラン検索</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-resource.js"></script>
+    <script src="js/controllers.js"></script>
+</head>
+<body>
+    <h1>レストラン検索</h1>
+    <div ng-controller="StoreListCtrl">
+      <div class="row">
+        <div class="col-md-10">
+          <ul class="stores">
+            <li ng-repeat="store in stores">
+              <h3>{{store.name}}</h3>
+              <img ng-src="{{store.image_url}}"></a>
+              <p>Rate: {{store.rating}}</p>
+              <p>{{store.snippet_text}}</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

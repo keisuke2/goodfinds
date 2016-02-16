@@ -1,0 +1,1 @@
+Goodfind AngularJSセミナーの資料です。

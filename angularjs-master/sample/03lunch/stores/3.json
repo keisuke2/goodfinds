@@ -1,0 +1,12 @@
+{
+    "id": 4, 
+    "name": "テリーの洋食店", 
+    "image_url": "img/stores/food04.jpg",
+    "rating": "5",
+    "phone": "000-1111-6666",
+    "url": "http://cookpad.com/search/%E3%83%8F%E3%83%B3%E3%83%90%E3%83%BC%E3%82%B0",
+    "location": {
+        "neighborhoods": ["東京駅", "有楽町駅"]
+    },
+    "snippet_text": "シェフ特性のビーフシチューがお勧め。ハンバーグもおいしい"
+}

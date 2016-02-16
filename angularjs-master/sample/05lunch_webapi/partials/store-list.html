@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+      <input type="text" ng-model="place" placeholder="例)渋谷駅">
+      <p><a href="#/stores/{{place}}">{{place}}付近を検索する</a></p>
+
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="rating">Newest</option>
+      </select>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="stores">
+        <li ng-repeat="store in stores | filter:query | orderBy:orderProp" class="thumbnail">
+          <h3>{{store.name}}</h3>
+          <a href="#/stores/detail/{{store.id}}"><img ng-src="{{store.image_url}}"></a>
+          <p><img ng-src="{{store.rating_img_url}}"></p>
+          <p>{{store.snippet_text}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<ul class="stores">
+    <h2>{{store.name}}</h2>
+    <p><a href={{store.url}}><img ng-src="{{store.image_url}}"></a>
+    <p>{{store.rating}}<img ng-src="{{store.rating_img_url}}"></p>
+    <h4>エリア</h4>
+    <li ng-repeat="neighbor in store.location.neighborhoods" class="thumbnail">
+      {{neighbor}}
+    </li>
+    <p>{{store.snippet_text}}</p>
+    <p>tel: {{store.phone}}</p>
+</ul>
